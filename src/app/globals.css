@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(117deg, #060B27 0%, #2F014C 100%);
+  font-weight: var(--font-inter);
+  overflow-y: auto;
+}
+
+.gradient-header {
+  background: linear-gradient(180deg, #F6F6F7 14.29%, #7E808F 82.14%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
